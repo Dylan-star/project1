@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 1200px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+.hide{
+    /*display: none!important;*/
+    opacity: 0;
+}
+#head {
+    width: 100%;
+}
+#head .contain {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+#head .contain .logo {
+    float: left;
+    text-align: center;
+}
+#head .contain .logo img {
+    width: 120px;
+    height: 60px;
+    margin-top: 15px;
+}
+#head .contain .logo P {
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #6D6D6D;
+}
+#head .contain .nav {
+    float: right;
+}
+#head .contain .nav li {
+    float: left;
+    padding: 15px 30px;
+    line-height: 70px;
+}
+#head .contain .nav li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+#head .contain .nav .active {
+    border-bottom: 2px solid #D30000;
+}
+#head .contain .nav li:hover {
+    border-bottom: 2px solid #D30000;
+}
+#head .bg {
+    position: relative;
+}
+#head .bg img {
+    width: 100%;
+}
+#head .bg .mask {
+    position: absolute;
+    width: 650px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#head .bg .mask p:first-of-type {
+    color: #ffffff;
+    font-family: 方正姚体;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#head .bg .mask p:last-of-type {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 微软雅黑;
+    text-align: center;
+}
+#foot {
+    width: 100%;
+    height: 170px;
+    background-color: #000;
+    margin-top: 100px;
+}
+#foot .contain {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 13px;
+    color: #ccc;
+}
+#foot .contain .left {
+    float: left;
+    margin-top: 30px;
+    line-height: 25px;
+}
+#foot .contain .middle {
+    float: left;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#foot .contain .middle li {
+    margin-bottom: 10px;
+}
+#foot .contain .right .erweima {
+    float: right;
+    margin-top: 10px;
+}
+#foot .contain .right .erweima .gzh {
+    width: 100px;
+    height: 140px;
+    text-align: center;
+    float: left;
+}
+#foot .contain .right .erweima .gzh img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+#foot .contain .right .erweima .dyh {
+    width: 120px;
+    height: 160px;
+    text-align: center;
+    float: left;
+    margin-left: 50px;
+}
+#foot .contain .right .erweima .dyh img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
